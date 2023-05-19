@@ -1,0 +1,685 @@
+<br>
+<br>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- End meta tags -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- End meta tags -->
+
+    <!-- Link Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- End Link Bootstrap CSS -->
+
+    <!-- Link aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/021f3eb1da35b2a042907dc870c00b9c?family=TwentiethCenturyW01-XBdCn"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/stylesheet/app.css" />
+    <link rel="stylesheet" href="assets/stylesheet/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css"
+    />
+    <!-- End Link aos -->
+
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Carter+One&family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- End Link Font -->
+
+    <title>Profile</title>
+  </head>
+  <body style="background-color: pink">
+    <ul class="nav justify-content-center bg-light fixed-top">
+      <li class="nav-item">
+
+        <!-- <a class="nav-link" href="#"> -->
+        <a
+          class="buttonToggle"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+          ><i class="fas fa-bars toggleSlide"></i
+        ></a>
+
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+              select a menu :
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+        <!-- Nav-Link -->
+          <div class="offcanvas-body">
+            <ul>
+              <li>
+                <a class="nav-link" href="#Biodata">Biodata</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Organisasi">Organisasi</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Pelatihan">Pelatihan</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Saran">Saran</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <!-- End Nav-Link -->
+      <!-- </a> -->
+
+      <!-- Nav-Link -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link initial" href="#" aria-current="page">All</a>
+      </li>
+
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Biodata">Biodata</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Organisasi">Organisasi</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Pelatihan">Pelatihan</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Saran">Saran</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+    </ul>
+    <!-- End Nav-Link -->
+
+    <!-- Image -->
+    <div class="all-body-cover">
+      <center>
+      <div class="foto">
+        <img class="gambar" src="fotoo.png.png" alt="foto profile"/>
+        <p style="margin-left:30px; margin-right:60px;">
+      </center>
+    <!-- End Image -->
+
+    <!-- Nama -->
+        <div class="nama">
+        <h3 class="text-center fw-bold">Diestha Wulandari</h3>
+        <h5 class="text-center">Mahasiswa Aktif Politeknik Negeri Sriwijaya</h5>
+      </div>
+    <!-- End Nama -->
+
+    <!-- SVG -->
+      <svg
+        class="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L48,149.3C96,139,192,117,288,144C384,171,480,245,576,272C672,299,768,277,864,250.7C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+      <!-- End SVG -->
+
+      <div class="firstContainer">
+        <div class="content">
+          <h2
+            data-aos="fade-up"
+         \    data-aos-duration="800"
+            id="Biodata"
+            class="nameHeading fw-bold"
+          >
+            BIODATA
+          </h2>
+          <div class="container text-center">
+            <div class="row">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+              Hallo saya Diestha Wulandari bisa di panggil diess, Saya Mahasiswa aktif Politeknik Negeri Sriwijaya Jurusan Manajemen Informatika Semester 4, saya aktif dalam organisasi internal dan eksternal kampus, serta turut aktif dalam kegiatan kepanitiaan dan volunter, mampu berkomunikasi dengan baik dan bekerja sama team maupun individu
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+                <h4 class="subNameHeading fw-bold">PENDIDIKAN</h4>
+                <div class="education">
+                  <!-- Button trigger modal -->
+                  <p class="startEnd">Strated on 2009</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  >
+                    SDN 14 TANJUNG AGUNG
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal1"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Data Pendidikan
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body"></div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 <!-- End Modal -->
+                  <p class="startEnd">Finished on 2015</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+
+                  <p class="startEnd">Started on 2015</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
+                    SMPN 6 TANJUNG AGUNG
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal2"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Data Pendidikan
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body"></div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Modal -->
+                  <p class="startEnd">Finished on 2018</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on 2018</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal3"
+                  >
+                    SMAN 1 TANJUNG AGUNG
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal3"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                           Data Pendidikan 
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Modal -->
+                  <p class="startEnd">Finished 2021</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal4"
+                  >
+                    POLITEKNIK NEGERI SRIWIJAYA
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal4"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Achievement
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">Not yet</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Modal -->
+              <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4">
+                Hobby saya adalah mendesain atau mengedit saya suka mendesain sebuah feed instagram, instagram story, banner acara, video tron atau tampilan tv dll, saya suka mengedit didalam waktu kosong saya, selain itu saya juga suka berenang karena dengan berenang saya merasa sangat relax dan juga saya juga suka ke hutan atau trip bersama dengan teman-teman saya atau bisa disebut healing
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- second -->
+    <div class="secondContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Organisasi"
+        class="achive fw-bold"
+      >
+       Organisasi
+      </h2>
+      <div class="container mx-auto">
+        <div class="row">
+          <div class="col-sm-3">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-dark mb-3 mx-auto"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">Paskibra</div>
+              <div class="card-body">
+                <h5 class="card-title">Sekretaris Umum</h5>
+                <p class="card-text">
+                  Periode 2019-2021
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-dark mb-3 mx-auto"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">Himpunan Mahasiswa Muara Enim</div>
+              <div class="card-body">
+                <h5 class="card-title">Anggota Kaderisasi</h5>
+                <p class="card-text">
+                  Periode 2021-2022
+                </p>
+                <h5 class="card-title">Wakil Kepala Divisi Minat & Bakat (MIKAT)</h5>
+                <p class="card-text">
+                  Periode 2022-2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="card text-dark mb-3 mx-auto"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">English Debating Society</div>
+              <div class="card-body">
+                <h5 class="card-title">Anggota Humas Eksternal</h5>
+                <p class="card-text">
+                  Periode 2021-2022
+                <h5 class="card-title">Sekretaris Umum</h5>
+                <p class="card-text">
+                  Periode 2022-Sekarang
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End -->
+
+    <!-- third -->
+    <!-- SVG -->
+    <svg
+      class="wavesss"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,0L48,53.3C96,107,192,213,288,234.7C384,256,480,192,576,181.3C672,171,768,213,864,245.3C960,277,1056,299,1152,298.7C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- End SVG -->
+
+    <div class="thirdContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Pelatihan"
+        class="projects fw-bold"
+      >
+        Pelatihan
+      </h2>
+      <div class="container mx-auto">
+          <div class="row">
+            <div class="col-sm-3">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="card text-dark mb-3 mx-auto"
+                style="max-width: 18rem"
+              >
+                <div class="card-header">KOMINFO</div>
+                <div class="card-body">
+                  <h5 class="card-title">Video Content Creator</h5>
+                  <p class="card-text">
+                    Tahun 2022
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="card text-dark mb-3 mx-auto"
+                style="max-width: 18rem"
+              >
+                <div class="card-header">ITFEST</div>
+                <div class="card-body">
+                  <h5 class="card-title">Pelatihan WEB</h5>
+                  <p class="card-text">
+                    Tahun 2022
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="card text-dark mb-3 mx-auto"
+                style="max-width: 18rem"
+              >
+                <div class="card-header">SINTAK</div>
+                <div class="card-body">
+                  <h5 class="card-title">Pelatihan WEB</h5>
+                  <p class="card-text">
+                    Tahun 2023
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- SVG -->
+    <svg
+      class="botWaves"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,64L48,101.3C96,139,192,213,288,224C384,235,480,181,576,181.3C672,181,768,235,864,229.3C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- End SVG -->
+
+    <!-- Start Kotak Saran -->
+    <div class="fourthContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Saran"
+        class="achive text-center fw-bold"
+      >
+        Saran
+    </div>
+    <center>
+    </ul>
+    <hr>
+    <form>
+      <input
+    
+      type="text"
+      id="Username"
+      NAMA="Username"
+      placeholder="Username"
+      required>
+      <br>
+    
+      <input
+      style="margin-top : 10px"
+      type="E-mail"
+      id="E-mail"
+      name="E-mail"
+      placeholder="E-mail"/> </br>
+    
+      <textarea style="margin-top : 10px" name="Pesan" cols="50" rows="4"> Pesan </textarea>
+      </form>
+      <div class="button">
+      <button>kirim</button>
+      </div>
+  </center>
+    <!-- End Kotak Saran -->
+
+    <!-- SVG -->
+    <svg
+      class="wavesContact"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,32L60,58.7C120,85,240,139,360,133.3C480,128,600,64,720,69.3C840,75,960,149,1080,154.7C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- End SVG -->
+
+    <div class="fivethContainer">
+      <h2 id="Contact" class="contactMe fw-bold">CONTACT</h2>
+      <div class="container">
+        <div class="linkSosmed">
+          <a
+            class="itemSosmed"
+            href="https://www.linkedin.com/in/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="itemSosmed" href="https://instagram.com/diestha_osh"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="itemSosmed" href="https://www.tiktok.com/eibicididi"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a class="itemSosmed" href="https://youtube.com/"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a class="itemSosmed" href="diesthawulandari1004@gmail.com"
+            ><i class="fab fa-google"></i
+          ></a>
+          <a class="itemSosmed" href="https://github.com/"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center">Created by <a href="#">@diestha_osh</a></p>
+      </div>
+    </div>
+    <script src="assets/stylesheet/app.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+  <hr>
+</html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+@diestha_osh
